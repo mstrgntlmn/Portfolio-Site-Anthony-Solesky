@@ -1,0 +1,43 @@
+/*
+Color palette
+Purple: #4F2443
+Pink: #E93479
+Orange: #F9AC53
+Black: #000000
+White: #FFFFFF
+*/
+
+body {
+  background-color: #4F2443;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #F9AC53;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1.35em;
+  font-weight: 400;
+}
