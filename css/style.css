@@ -70,7 +70,7 @@ a:active {
   display: inline-block;
   background-color: #F9AC53;
   color: #FFFFFF;
-  font-weight: 400;
+  font-weight: 500;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #E93479;
@@ -88,12 +88,17 @@ a:active {
 
 .button.contact {
   background-color: transparent;
-  color: #000000;
+  color: #FFFFFF;
+  font-weight: 500;
   text-transform: uppercase;
-  border: 2px solid #000000;
+  border: 2px solid #FFFFFF;
 }
 
-.button.contact {
-  background-color: #000000;
+.button.contact:hover {
+  background-color: #FFFFFF;
   color: #120350;
+}
+
+.button.contact:active {
+  opacity: 0.8;
 }
