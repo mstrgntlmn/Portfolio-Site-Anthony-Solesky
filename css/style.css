@@ -1,5 +1,6 @@
 /*
 Color palette
+Blue: #120350
 Purple: #4F2443
 Pink: #E93479
 Orange: #F9AC53
@@ -8,12 +9,12 @@ White: #FFFFFF
 */
 
 body {
-  background-color: #4F2443;
+  background-color: #120350;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #F9AC53;
+  color: #FFFFFF;
 }
 
 h1, h2, h3, h4 {
@@ -40,4 +41,59 @@ h4 {
   font-family: 'Comfortaa', sans-serif;
   font-size: 1.35em;
   font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #E93479;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #E93479;
+}
+
+a:hover,
+a:focus {
+  color: #F9AC53;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #FFFFFF;
+}
+
+.button {
+  display: inline-block;
+  background-color: #F9AC53;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #E93479;
+  transition: 0.2s opacity;
+}
+
+.button:visited {
+  color: #FFFFFF;
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #000000;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+}
+
+.button.contact {
+  background-color: #000000;
+  color: #120350;
 }
