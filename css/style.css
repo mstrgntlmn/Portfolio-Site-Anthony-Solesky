@@ -1,15 +1,19 @@
 /*
 Color palette
 Blue: #120350
-Purple: #4F2443
+Purple: #340928
 Pink: #E93479
 Orange: #F9AC53
 Black: #000000
 White: #FFFFFF
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #120350;
+  background-color: #340928;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
@@ -17,12 +21,22 @@ body {
   color: #FFFFFF;
 }
 
+header {
+  background-color: #340928;
+  padding: 10px;
+  border-bottom: 3px solid #E93479;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.5);s
+}
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
 h1 {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 2.75em;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 3em;
   font-weight: 700;
 }
 
@@ -103,8 +117,100 @@ a:active {
   opacity: 0.8;
 }
 
-@media only screen and (min-width: 640px) {
+/* Layout styling */
 
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#hero h2 {
+  text-align: center;
+}
+
+#hero span {
+  display: block;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #E93479;
+}
+
+nav > ul > li > a:visited {
+  color: #E93479;
+}
+
+#hero {
+  background-color: #340928;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+ main {
+   padding-top: 100px;
+ }
+
+ .portrait {
+   max-width: 400px;
+   margin: auto;
+   padding-top: 50px;
+ }
+
+.fab.fa-linkedin {
+  max-width: 100px;
+}
+
+.fab.fa-behance-square {
+  max-width: 100px;
+}
+
+.fab.fa-twitter-square {
+  max-width: 100px;
+}
+
+@media only screen and (min-width: 640px) {
+header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+nav {
+  width: auto;
+  float: right;
+  margin-top: 20px;
+}
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
 }
 
 @media only screen and (min-width: 1024px) {
