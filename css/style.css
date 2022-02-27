@@ -7,7 +7,6 @@ Orange: #F9AC53
 Black: #000000
 White: #FFFFFF
 */
-
 * {
   box-sizing: border-box;
 }
@@ -15,9 +14,12 @@ White: #FFFFFF
 body {
   background-color: #340928;
   font-family: 'Quicksand', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #FFFFFF;
 }
 
@@ -28,12 +30,14 @@ header {
   text-align: center;
   position: fixed;
   width: 100%;
-  box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.5);s
+  box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.5);
+  s
 }
 
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-family: 'Comfortaa', sans-serif;
   font-size: 3em;
@@ -51,6 +55,7 @@ h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
+
 h4 {
   font-family: 'Comfortaa', sans-serif;
   font-size: 1.35em;
@@ -66,7 +71,7 @@ a {
   text-decoration: none;
 }
 
-a:visited{
+a:visited {
   color: #E93479;
 }
 
@@ -88,7 +93,8 @@ a:active {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #E93479;
-  transition: 0.2s opacity;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button:visited {
@@ -118,13 +124,18 @@ a:active {
 }
 
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
 
 .row {
   margin: 25px 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #work .row {
@@ -148,23 +159,23 @@ nav {
   display: inline-block;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #E93479;
 }
 
-nav > ul > li > a:visited {
+nav>ul>li>a:visited {
   color: #E93479;
 }
 
@@ -175,15 +186,20 @@ nav > ul > li > a:visited {
   width: 100%;
   text-align: center;
 }
- main {
-   padding-top: 100px;
- }
 
- .portrait {
-   max-width: 400px;
-   margin: auto;
-   padding-top: 50px;
- }
+#about h3 {
+  margin-top: 0;
+}
+
+main {
+  padding-top: 100px;
+}
+
+.portrait {
+  max-width: 400px;
+  margin: auto;
+  padding-top: 50px;
+}
 
 .fab.fa-linkedin {
   max-width: 100px;
@@ -198,25 +214,55 @@ nav > ul > li > a:visited {
 }
 
 @media only screen and (min-width: 640px) {
-header {
-  text-align: unset;
-  padding: 20px 0 13px;
-}
-nav {
-  width: auto;
-  float: right;
-  margin-top: 20px;
-}
-.col-md-6 {
-  width: 50%;
-  float: left;
-}
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 20px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .container {
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {}
 
+[class*="col-"] {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+@keyframes rotate-spool {
+  transform: rotate(90deg);
+}
+
+.spool-left {
+  animation-duration: 1s;
+  animation-name: rotate-spool;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
