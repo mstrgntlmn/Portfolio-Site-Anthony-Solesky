@@ -1,7 +1,7 @@
 /*
 Color palette
 Blue: #120350
-Purple: #340928
+Purple: #190021
 Pink: #E93479
 Orange: #F9AC53
 Black: #000000
@@ -12,7 +12,7 @@ White: #FFFFFF
 }
 
 body {
-  background-color: #340928;
+  background-color: #190021;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   /* Sets the font size to 16px */
@@ -24,7 +24,7 @@ body {
 }
 
 header {
-  background-color: #340928;
+  background-color: #190021;
   padding: 10px;
   border-bottom: 3px solid #E93479;
   text-align: center;
@@ -180,7 +180,7 @@ nav>ul>li>a:visited {
 }
 
 #hero {
-  background-color: #340928;
+  background-color: #190021;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -261,7 +261,7 @@ main {
 }
 
 .spool-left {
-  animation-duration: 1s;
+  animation-duration: 4s;
   animation-name: rotate-spool;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
