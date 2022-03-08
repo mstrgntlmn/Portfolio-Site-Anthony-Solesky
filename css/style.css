@@ -11,6 +11,10 @@ White: #FFFFFF
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #100314;
   font-family: 'Quicksand', sans-serif;
@@ -25,12 +29,11 @@ body {
 
 header {
   background-color: #100314;
-  padding: 10px;
+  padding: 10px 0 4px;
   border-bottom: 3px solid #E93479;
-  text-align: center;
   position: fixed;
   width: 100%;
-  box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 10px 5px 0px rgba(233, 52, 121, 0.15);
   s
 }
 
@@ -152,20 +155,13 @@ a:active {
 }
 
 .logo {
-  max-width: 200px;
-}
-
-nav {
-  display: inline-block;
+  max-width: 150px;
 }
 
 nav>ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -177,6 +173,36 @@ nav>ul>li>a {
 
 nav>ul>li>a:visited {
   color: #E93479;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 16px;
+  padding-right: 0;
+  font-size: 24px;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  text-align: right;
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 #hero {
@@ -219,14 +245,34 @@ main {
     padding: 20px 0 13px;
   }
 
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+  display: none;
+}
+
   nav {
     width: auto;
     float: right;
     margin-top: 20px;
   }
 
+  nav > ul {
+  margin: 1em 0;
+}
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
   .col-md-6 {
     width: 50%;
+  }
+
+  .logo {
+    max-width: 200px;
   }
 }
 
@@ -234,11 +280,13 @@ main {
   .col-lg-7 {
     width: 58.33%;
   }
+
   .col-lg-5 {
     width: 41.66%;
   }
+
   .container {
-    max-width:1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -253,9 +301,17 @@ main {
 }
 
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
 
 /*@keyframes rotate-spool {
@@ -264,10 +320,14 @@ main {
   50% {transform: rotate(180deg);}
   100% {transform: rotate(360deg);}
 }*/
-
 @keyframes rotate-spool {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(90deg);}
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(90deg);
+  }
 }
 
 .spool {
