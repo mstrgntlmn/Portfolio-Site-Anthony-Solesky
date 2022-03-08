@@ -8,3 +8,10 @@ function menuToggle(){
     x.className = 'navtoggle';
 }
 }
+
+function closeMenu(){
+  var x = document.getElementById('myNavtoggle');
+  if (x.className === 'navtoggle responsive'){
+      x.className = 'navtoggle';
+    }
+  }
