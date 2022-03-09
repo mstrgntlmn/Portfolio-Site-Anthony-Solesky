@@ -153,6 +153,16 @@ a:active {
   display: block;
 }
 
+#skills{
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+#tools{
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
 .logo {
   max-width: 150px;
 }
@@ -262,7 +272,7 @@ main {
     margin-top: 20px;
   }
 
-  nav > ul {
+  nav>ul {
   margin: 1em 0;
 }
 
