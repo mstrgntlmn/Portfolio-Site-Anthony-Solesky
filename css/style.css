@@ -79,9 +79,9 @@ a:focus {
   color: #F9AC53;
 }
 
-a:active {
+/*a:active {
   color: #F9AC53;
-}
+}*/
 
 .button {
   display: inline-block;
