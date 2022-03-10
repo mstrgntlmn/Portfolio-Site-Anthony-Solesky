@@ -74,17 +74,13 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #E93479;
-}
-
 a:hover,
 a:focus {
   color: #F9AC53;
 }
 
 a:active {
-  color: #FFFFFF;
+  color: #F9AC53;
 }
 
 .button {
@@ -97,10 +93,6 @@ a:active {
   border-bottom: 2px solid #E93479;
   transition-duration: 0.2s;
   transition-property: opacity;
-}
-
-.button:visited {
-  color: #FFFFFF;
 }
 
 .button:hover {
@@ -173,14 +165,16 @@ nav>ul {
   margin: 0;
 }
 
+nav > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+
 nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #E93479;
-}
-
-nav>ul>li>a:visited {
   color: #E93479;
 }
 
