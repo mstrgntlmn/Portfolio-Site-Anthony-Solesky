@@ -1,0 +1,50 @@
+<svg width="608" height="608" viewBox="0 0 608 608" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="kiwi" filter="url(#filter0_d_302_2)">
+<circle id="Ellipse 41" cx="300" cy="300" r="297.5" fill="#FF9683" stroke="black" stroke-width="5"/>
+<g id="fruit">
+<circle id="Ellipse 42" cx="300" cy="300" r="272.5" fill="#ADFF98" stroke="black" stroke-width="5"/>
+<path id="Star 1" d="M309.345 264.129L310.184 268.655L313.524 265.486L350.717 230.195L328.645 276.472L326.663 280.628L331.228 280.027L382.061 273.337L337.004 297.803L332.958 300L337.004 302.197L382.061 326.663L331.228 319.973L326.663 319.372L328.645 323.528L350.717 369.805L313.524 334.514L310.184 331.345L309.345 335.871L300 386.284L290.655 335.871L289.816 331.345L286.476 334.514L249.283 369.805L271.355 323.528L273.337 319.372L268.772 319.973L217.939 326.663L262.996 302.197L267.042 300L262.996 297.803L217.939 273.337L268.772 280.027L273.337 280.628L271.355 276.472L249.283 230.195L286.476 265.486L289.816 268.655L290.655 264.129L300 213.716L309.345 264.129Z" fill="#EEEEEE" stroke="black" stroke-width="5"/>
+<ellipse id="Ellipse 43" cx="210" cy="300" rx="10" ry="5" fill="black"/>
+<ellipse id="Ellipse 44" cx="390" cy="300" rx="10" ry="5" fill="black"/>
+<ellipse id="Ellipse 45" cx="375.029" cy="246.923" rx="10" ry="5" transform="rotate(-36 375.029 246.923)" fill="black"/>
+<ellipse id="Ellipse 46" rx="10" ry="5" transform="matrix(-0.809017 -0.587785 -0.587785 0.809017 225.029 248.923)" fill="black"/>
+<ellipse id="Ellipse 47" rx="10" ry="5" transform="matrix(0.809017 0.587785 0.587785 -0.809017 375.029 352.923)" fill="black"/>
+<ellipse id="Ellipse 49" cx="274.437" cy="214.624" rx="10" ry="5" transform="rotate(72 274.437 214.624)" fill="black"/>
+<ellipse id="Ellipse 50" cx="327.327" cy="386.679" rx="10" ry="5" transform="rotate(72 327.327 386.679)" fill="black"/>
+<ellipse id="Ellipse 51" rx="10" ry="5" transform="matrix(0.309017 -0.951057 -0.951057 -0.309017 327.677 213.983)" fill="black"/>
+<ellipse id="Ellipse 52" rx="10" ry="5" transform="matrix(-0.309017 0.951057 0.951057 0.309017 272.341 387.919)" fill="black"/>
+<ellipse id="Ellipse 48" cx="225.029" cy="350.923" rx="10" ry="5" transform="rotate(144 225.029 350.923)" fill="black"/>
+<ellipse id="seed20" cx="255.846" cy="170.056" rx="10" ry="5" transform="rotate(-108 255.846 170.056)" fill="black"/>
+<ellipse id="seed19" rx="10" ry="5" transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 219.923 195.028)" fill="black"/>
+<ellipse id="seed18" rx="10" ry="5" transform="matrix(-0.809017 -0.587785 -0.587785 0.809017 185.029 215.923)" fill="black"/>
+<ellipse id="seed17" rx="10" ry="5" transform="matrix(-0.951057 -0.309017 -0.309017 0.951057 174.056 264.845)" fill="black"/>
+<ellipse id="seed16" cx="153" cy="300" rx="10" ry="5" fill="black"/>
+<ellipse id="seed15" rx="10" ry="5" transform="matrix(-0.951057 0.309017 0.309017 0.951057 174.056 340.845)" fill="black"/>
+<ellipse id="seed14" cx="185.029" cy="380.923" rx="10" ry="5" transform="rotate(144 185.029 380.923)" fill="black"/>
+<ellipse id="seed13" rx="10" ry="5" transform="matrix(-0.587785 0.809017 0.809017 0.587785 226.189 405.029)" fill="black"/>
+<ellipse id="seed12" rx="10" ry="5" transform="matrix(-0.309017 0.951057 0.951057 0.309017 255.846 428.056)" fill="black"/>
+<ellipse id="seed11" rx="10" ry="5" transform="matrix(0 -1 -1 0 300 426)" fill="black"/>
+<ellipse id="seed10" cx="343.846" cy="428.056" rx="10" ry="5" transform="rotate(72 343.846 428.056)" fill="black"/>
+<ellipse id="seed9" cx="373.923" cy="399.029" rx="10" ry="5" transform="rotate(54 373.923 399.029)" fill="black"/>
+<ellipse id="seed8" rx="10" ry="5" transform="matrix(0.809017 0.587785 0.587785 -0.809017 415.029 380.923)" fill="black"/>
+<ellipse id="seed7" cx="423.055" cy="340.845" rx="10" ry="5" transform="rotate(18 423.055 340.845)" fill="black"/>
+<ellipse id="seed6" cx="444" cy="300" rx="10" ry="5" fill="black"/>
+<ellipse id="seed5" cx="423.056" cy="258.845" rx="10" ry="5" transform="rotate(-18 423.056 258.845)" fill="black"/>
+<ellipse id="seed4" cx="423.029" cy="213.923" rx="10" ry="5" transform="rotate(-36 423.029 213.923)" fill="black"/>
+<ellipse id="seed3" cx="382.923" cy="195.028" rx="10" ry="5" transform="rotate(-54 382.923 195.028)" fill="black"/>
+<ellipse id="seed2" rx="10" ry="5" transform="matrix(0.309017 -0.951057 -0.951057 -0.309017 343.846 172.056)" fill="black"/>
+<ellipse id="seed1" rx="10" ry="5" transform="matrix(0 -1 -1 0 300 175)" fill="black"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_302_2" x="0" y="0" width="608" height="608" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="8" dy="8"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_302_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_302_2" result="shape"/>
+</filter>
+</defs>
+</svg>

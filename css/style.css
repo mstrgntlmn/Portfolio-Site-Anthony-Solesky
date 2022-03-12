@@ -132,6 +132,16 @@ a:focus {
   display: table;
 }
 
+.row.vw{
+  margin: 0px 0;
+}
+
+.row.vw::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #FFFFFF;
@@ -178,6 +188,10 @@ nav>ul>li>a {
   color: #E93479;
 }
 
+.vwlist {
+  text-align: left;
+}
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -208,6 +222,10 @@ nav>ul>li>a {
   padding: 0 0 10px;
 }
 
+#vaporwallet {
+  color: #000000;
+}
+
 #hero {
   background-color: #100314;
   padding: 20px 0;
@@ -216,8 +234,41 @@ nav>ul>li>a {
   text-align: center;
 }
 
+#herovw {
+  background-color: #E5E5E5;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
 #about h3 {
   margin-top: 0;
+}
+
+#vwheader{
+  background-color: #E5E5E5;
+  padding: 20px 20px;
+}
+
+#vwoverview{
+  background-color: #F2C7FC;
+  padding: 20px 20px;
+}
+
+#vwproblem{
+background-color: #F2C7FC;
+padding: 20px 20px;
+}
+
+#vwfeatures {
+background-color: #CDF2FB;
+padding: 20px 20px;
+}
+
+#vwflow {
+  background-color: #D5FFCB;
+  padding: 20px 20px;
 }
 
 main {
@@ -305,45 +356,6 @@ main {
   float: left;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-@keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-
-  50% {
-    fill: #fcffad;
-  }
-
-  100% {
-    fill: #f76414;
-  }
-}
-
-/*@keyframes rotate-spool {
-  0% {transform: rotate(0deg);}
-  25% {transform: rotate(90deg);}
-  50% {transform: rotate(180deg);}
-  100% {transform: rotate(360deg);}
-}*/
-@keyframes rotate-spool {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(90deg);
-  }
-}
-
-.spool {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation-duration: 1s;
-  animation-name: rotate-spool;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
 }
 
 .social-icons .icon i {

@@ -1,0 +1,47 @@
+/*cassette*/
+@keyframes rotate-spool {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(90deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.spool {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-duration: 1s;
+  animation-name: rotate-spool;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/*grapefruit*/
+@keyframes rotate-grapefruit {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(-90deg);}
+  50% {transform: rotate(-180deg);}
+  100% {transform: rotate(-360deg);}
+}
+
+.fruit {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-duration: 4s;
+  animation-name: rotate-grapefruit;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes slide-shutter {
+from {transform: translate(0,0);}
+to {transform: translate(-5.9em,0);}
+}
+
+.shutter {
+transform-box: fill-box;
+transform-origin: center;
+animation-duration: 2s;
+animation-name: slide-shutter;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
