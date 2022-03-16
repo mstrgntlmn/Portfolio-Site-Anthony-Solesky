@@ -1,9 +1,20 @@
 /*cassette*/
 @keyframes rotate-spool {
-  0% {transform: rotate(0deg);}
-  25% {transform: rotate(90deg);}
-  50% {transform: rotate(180deg);}
-  100% {transform: rotate(360deg);}
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .spool {
@@ -17,10 +28,21 @@
 
 /*grapefruit*/
 @keyframes rotate-grapefruit {
-  0% {transform: rotate(0deg);}
-  25% {transform: rotate(-90deg);}
-  50% {transform: rotate(-180deg);}
-  100% {transform: rotate(-360deg);}
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-90deg);
+  }
+
+  50% {
+    transform: rotate(-180deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
 .fruit {
@@ -33,15 +55,38 @@
 }
 
 @keyframes slide-shutter {
-from {transform: translate(0,0);}
-to {transform: translate(-5.9em,0);}
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(-5.9em, 0);
+  }
 }
 
 .shutter {
-transform-box: fill-box;
-transform-origin: center;
-animation-duration: 2s;
-animation-name: slide-shutter;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-duration: 2s;
+  animation-name: slide-shutter;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes lens-shine {
+  from {
+    fill: rgb(256, 256, 256, 0);
+  }
+
+  to {
+    fill: rgb(256, 256, 256, .25);
+  }
+}
+
+.shine {
+  transform-box: fill-box;
+  animation-duration: 2s;
+  animation-name: lens-shine;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }

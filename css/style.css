@@ -75,7 +75,7 @@ a {
 }
 
 a:hover,
-a:focus {
+/*a:focus*/ {
   color: #F9AC53;
 }
 
@@ -237,7 +237,6 @@ nav>ul>li>a {
 #herovw {
   background-color: #E5E5E5;
   padding: 20px 0;
-  display: inline-block;
   width: 100%;
   text-align: center;
 }
@@ -254,6 +253,7 @@ nav>ul>li>a {
 #vwoverview{
   background-color: #F2C7FC;
   padding: 20px 20px;
+  margin: auto;
 }
 
 #vwproblem{
@@ -263,6 +263,11 @@ padding: 20px 20px;
 
 #vwfeatures {
 background-color: #CDF2FB;
+padding: 20px 20px;
+}
+
+#vwresearch{
+background-color: #D5FFCB;
 padding: 20px 20px;
 }
 
@@ -360,4 +365,16 @@ main {
 
 .social-icons .icon i {
   font-size: 40px;
+}
+
+.responsive .icon {
+  color: #F9AC53;
+}
+
+#about a.about {
+  color: blue;
+}
+
+.max600 {
+  max-width: 600px;
 }

@@ -1,19 +1,22 @@
-<svg width="1094" height="382" viewBox="0 0 1094 382" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1086" height="374" viewBox="0 0 1086 374" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     @keyframes lens-shine {
-    from {fill: rgb(256,256,256,0);}
-    to {fill: rgb(256,256,256,.25);}
+      from {
+        fill: rgb(256,256,256,0);
+      }
+      to {
+        fill: rgb(256,256,256,.25);
+      }
     }
-
-.shine {
-transform-box: fill-box;
-animation-duration: 2s;
-animation-name: lens-shine;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
+    .shine {
+      transform-box: fill-box;
+      animation-duration: 2s;
+      animation-name: lens-shine;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
   </style>
-   <g id="sunglasses" filter="url(#filter0_d_311_283)">
+  <g id="sunglasses">
     <g id="Group 5">
       <path
         id="sunglasses_2"
@@ -28,7 +31,8 @@ animation-direction: alternate;
         stroke="black"
         stroke-width="5"/>
       <path
-        id="shine" class="shine"
+        id="shine"
+        class="shine"
         d="M948.776 38.1828C930.738 32.6331 885.137 27.7188 829.529 30.0443C773.844 32.3731 707.774 41.9736 648.788 65.6876C627.961 74.0607 616.683 90.633 612.33 111.287C608.002 131.823 610.483 156.471 617.044 181.522C630.161 231.605 659.868 284.332 686.375 311.04C725.044 350.002 793.785 360.536 855.993 350.45C887.176 345.393 916.95 335.128 940.781 320.462C964.595 305.807 982.665 286.632 990.039 263.691C1004.31 219.299 1016.83 170.184 1014.48 128.617C1013.3 107.797 1008.39 88.7048 997.943 73.0237C987.47 57.2999 971.565 45.1941 948.776 38.1828ZM440.519 65.6876C381.533 41.9736 315.463 32.3731 259.777 30.0443C204.17 27.7188 158.569 32.6331 140.531 38.1828C117.742 45.1941 101.837 57.2999 91.3644 73.0237C80.9205 88.7048 76.003 107.797 74.825 128.617C72.473 170.184 84.9992 219.299 99.268 263.691C106.642 286.632 124.712 305.807 148.526 320.462C172.357 335.128 202.131 345.393 233.314 350.45C295.522 360.536 364.263 350.002 402.932 311.04C429.439 284.332 459.146 231.605 472.263 181.522C478.824 156.471 481.305 131.823 476.977 111.287C472.624 90.633 461.346 74.0607 440.519 65.6876Z"
         fill="url(#paint1_radial_311_283)"
         stroke="black"
@@ -70,15 +74,6 @@ animation-direction: alternate;
       fill="#EEEEEE"/>
   </g>
   <defs>
-    <filter id="filter0_d_311_283" x="0.502441" y="0.5" width="1093" height="381.048" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-      <feOffset dx="8" dy="8"/>
-      <feComposite in2="hardAlpha" operator="out"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_311_283"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_311_283" result="shape"/>
-    </filter>
     <radialGradient id="paint0_radial_311_283" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(551.704 351.635) rotate(-91.2083) scale(319.389 934.635)">
       <stop stop-color="#FF9683"/>
       <stop offset="1" stop-color="#FFE483"/>
