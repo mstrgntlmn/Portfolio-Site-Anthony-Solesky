@@ -86,7 +86,7 @@ a:hover,
 .button {
   display: inline-block;
   background-color: #F9AC53;
-  color: #FFFFFF;
+  color: #190021;
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
@@ -98,6 +98,10 @@ a:hover,
 .button:hover {
   opacity: 0.8;
   text-decoration: none;
+}
+
+#contact {
+  color:#FFFFFF;
 }
 
 .button.contact {
@@ -367,6 +371,10 @@ main {
   font-size: 40px;
 }
 
+.social-icons .icon i:hover {
+  color: #F9AC53;
+}
+
 .responsive .icon {
   color: #F9AC53;
 }
@@ -377,4 +385,8 @@ main {
 
 .max600 {
   max-width: 600px;
+}
+
+.current {
+  color: #F9AC53;
 }
