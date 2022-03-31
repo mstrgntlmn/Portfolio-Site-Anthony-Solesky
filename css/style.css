@@ -24,7 +24,7 @@ body {
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #FFFFFF;
+  color: #FFFFFF
 }
 
 header {
@@ -36,7 +36,7 @@ header {
   box-shadow: 0px 10px 5px 0px rgba(233, 52, 121, 0.15);
   s
 }
-
+ 
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -173,7 +173,7 @@ a:hover,
   max-width: 150px;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -185,11 +185,15 @@ nav > ul > li {
   padding: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #E93479;
+}
+
+nav > ul > li > a:hover {
+  color: #F9AC53;
 }
 
 .vwlist {
